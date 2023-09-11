@@ -6,7 +6,6 @@ function App() {
 
   const [name, setName] = useState("");
 
-
     const inputEvent = (event) => {
 
       setName(event.target.value) //here event object will find the target in the event object and value in this case which will let us access what the user will enter
