@@ -14,7 +14,7 @@ function App() {
       //and setName will change the state and this will become the current state as its the updated function
     }
 
-    //here this onSubmit function will be called upon clicking the button which will then display the fullname
+    //here this onSubmit function will be called upon clicking the button which will then display the fullName
     const onSubmit = () => {
       setfullName(name)
     }
