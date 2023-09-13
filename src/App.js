@@ -8,11 +8,13 @@ function App() {
   const [fullName, setfullName] = useState("");
 
     const inputEvent = (event) => {
+     
 
       setName(event.target.value) 
     }
 
-    const onSubmit = () => {
+    const onSubmit = (event) => {
+      event.preventDefault();
       setfullName(name)
     }
 
