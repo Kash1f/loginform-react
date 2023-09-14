@@ -8,8 +8,6 @@ function App() {
   const [fullName, setfullName] = useState("");
 
     const inputEvent = (event) => {
-     
-
       setName(event.target.value) 
     }
 
@@ -17,8 +15,6 @@ function App() {
       event.preventDefault();
       setfullName(name)
     }
-
-
 
   return (
     <>
@@ -28,8 +24,7 @@ function App() {
     <h1>Hello {fullName}</h1>
     <input type="text" placeholder="Enter Your Name" onChange={inputEvent} value={name}/>
     <button type='submit'>Click Me</button>
-    
-
+  
     </div>
     </form>
     </div>
